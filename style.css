@@ -1,25 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 html, body {
     height: 100%;
     margin:  0;
     padding: 0;
 }
+body {
+  background: url('assets/background.jpg');
+}
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
   flex-direction: column;
-  height: 100%;
+  align-items: center;
+  height: 90%;
+  height: calc(100% - 40px);
   padding: 20px;
 }
 h1 {
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h2 {
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
+  text-align: center
+}
+h3 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center
+}
+p {
+  font-size: 17px;
+  line-height: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: #000;
+  font-weight: 700;
+  transition: 0.5s;
+}
+a:hover {
+  text-decoration: none;
 }
 .listen {
   width: 90%;
@@ -39,10 +65,47 @@ img.apple {
   width: 230px;
   margin-top: -80px;
 }
+.social {
+  margin: 10px 0 0;
+}
+.social img {
+  width: 70px;
+  display: inline-block;
+  opacity: 1;
+}
+.boys {
+  max-width: 500px;
+  width: 90%;
+}
+.description {
+  text-align: justify;
+  max-width: 600px;
+  margin-bottom: 30px;
+  padding: 0 20px
+}
+.emoji {
+  font-size: 14px;
+}
+.footer {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.mic {
+  position: fixed;
+  bottom: 0;
+  right: 4%;
+  width: 14%
+}
 .watermark {
   position: relative;
   transform: rotate(20deg);
   top: -30px;
-  font-size: 25px;
+  font-size: 28px;
   font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px rgb(10,10,10,0.4);
+}
+@media (max-width: 900px) {
+  .mic {
+    display: none;
+  }
 }
