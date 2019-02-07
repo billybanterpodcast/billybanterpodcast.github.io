@@ -1,3 +1,48 @@
-html {
-  background: red;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html, body {
+    height: 100%;
+    margin:  0;
+    padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+.listen {
+  width: 90%;
+  max-width: 800px;
+}
+.links {
+  text-align: center;
+}
+.links img {
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  opacity: 0.3
+}
+img.apple {
+  width: 230px;
+  margin-top: -80px;
+}
+.watermark {
+  position: relative;
+  transform: rotate(20deg);
+  top: -30px;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
