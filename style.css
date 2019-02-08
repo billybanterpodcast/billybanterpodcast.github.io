@@ -100,11 +100,11 @@ img.google {
 }
 .watermark {
   position: relative;
-/*   transform: rotate(20deg); */
-/*   top: -40px; */
-/*   font-size: 28px; */
-  top: -80px;
-  font-size: 30px;
+  transform: rotate(20deg);
+  top: -40px;
+  font-size: 28px;
+  /* top: -80px;
+  font-size: 30px; */
   font-family: 'Raleway', sans-serif;
   text-shadow: 1px 1px rgb(10,10,10,0.4);
 }
