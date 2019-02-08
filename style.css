@@ -58,12 +58,13 @@ a:hover {
   padding: 10px 0;
   display: block;
   margin: 0 auto;
-  width: 200px;
+  width: 230px;
   opacity: 0.3
 }
-img.apple {
-  width: 230px;
+img.google {
   margin-top: -80px;
+  width: 200px;
+  opacity: 1;
 }
 .social {
   margin: 10px 0 0;
@@ -76,6 +77,7 @@ img.apple {
 .boys {
   max-width: 500px;
   width: 90%;
+  height: auto;
 }
 .description {
   text-align: justify;
@@ -98,9 +100,11 @@ img.apple {
 }
 .watermark {
   position: relative;
-  transform: rotate(20deg);
-  top: -30px;
-  font-size: 28px;
+/*   transform: rotate(20deg); */
+/*   top: -40px; */
+/*   font-size: 28px; */
+  top: -80px;
+  font-size: 30px;
   font-family: 'Raleway', sans-serif;
   text-shadow: 1px 1px rgb(10,10,10,0.4);
 }
