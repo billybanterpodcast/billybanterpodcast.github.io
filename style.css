@@ -9,7 +9,6 @@ body {
 }
 .container {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
   height: 90%;
@@ -58,11 +57,13 @@ a:hover {
   padding: 10px 0;
   display: block;
   margin: 0 auto;
+  width: 190px;
+}
+img.apple {
+  opacity: 0.3;
   width: 230px;
-  opacity: 0.3
 }
 img.google {
-  margin-top: -80px;
   width: 200px;
 }
 .social {
@@ -100,10 +101,8 @@ img.google {
 .watermark {
   position: relative;
   transform: rotate(20deg);
-  top: -40px;
-  font-size: 28px;
-  /* top: -80px;
-  font-size: 30px; */
+  top: -80px;
+  font-size: 30px;
   font-family: 'Raleway', sans-serif;
   text-shadow: 1px 1px rgb(10,10,10,0.4);
 }
