@@ -74,6 +74,10 @@ img.google {
   display: inline-block;
   opacity: 1;
 }
+.boys-container {
+  width: 90%;
+  text-align: center
+}
 .boys {
   max-width: 500px;
   width: 90%;
