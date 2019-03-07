@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <title>Billy Banter Podcast!</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </head>
   <body>
       <div class="container">
@@ -48,6 +49,9 @@
         <img class="mic" src="assets/mic.png" alt="microphone" />
       </div>
       <script>
+        moment().format();
+
+
         document.getElementById('week-count').html = 2;
       </script>
   </body>
