@@ -49,9 +49,9 @@
         <img class="mic" src="assets/mic.png" alt="microphone" />
       </div>
       <script>
-        start = moment();
-        now = moment(new Date(2019, 2, 12));
-        document.getElementById('week-count').innerHTML = moment.duration(start.diff(now, 'weeks'));
+        var start = moment();
+        var now = moment(new Date(2019, 1, 12));
+        document.getElementById('week-count').innerHTML = start.diff(now, 'weeks');
       </script>
   </body>
 </html>
